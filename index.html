@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CUET_theka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">CUETtheka</label>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+    </div>
+
+    <div class="container">
+    <h1 id="Mock-heading">Mock Test</h1>
+    <div id="quiz"></div>
+    <div id="result" class="result"></div>
+    <button id="submit" class="button">Submit</button>
+    <button id="retry" class="button hide">Retry</button>
+    <button id="showAnswer" class="button hide">Show Answer</button>
+    <div class="counter">
+        <p>Answered Questions: <span id="answered-count">0</span>/<span id="total-count">5</span></p>
+    </div>    
+    <footer class="footer">
+      <h5>copyright - www.CUETtheka.com | All rights reserved</h5>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
